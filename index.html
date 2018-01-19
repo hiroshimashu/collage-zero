@@ -1,0 +1,153 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Collage-zero</title>
+    <link rel="stylesheet" type="text/css" href="default.css">
+</head>
+<body>
+    <div class = 'wrappper'>
+
+        <div class = 'top'>
+            <img class = 'asset' src = 'image/logo2.svg'>
+            <img class =  'asset2' src = "image/logoOutline.svg">
+            <img class =  'logo3' src = "image/top3.svg">
+            <img class =  'downArrow' src = "image/downArrow.svg">
+        </div>
+
+        <img id = 'info' src = 'image/info.svg'>
+
+
+        <div class = 'company'>
+            <img id = 'asset4' src = 'image/company.svg'>
+        </div>
+
+        <div class = 'project'>
+            <img id = 'asset5' src = 'image/project.svg'>
+        </div>
+
+        <div class = 'project1'>
+            <img id = 'asset6' src = 'image/pro1_titile.svg'>
+        </div>
+
+        <div class="project1-main">
+            <img id = 'asset7' src = 'image/pro1_main.svg'>
+            <img id = 'asset8' src = 'image/predict_image.png'>
+        </div>
+
+        <div class = 'project2'>
+            <img id = 'asset9' src = 'image/pro2_title.svg'>
+        </div>
+
+        <div class = 'project2-main'>
+            <img id = 'pro2_left' src = 'image/pro2_main_left_1.svg'>
+            <img id = 'right_arrow' src = 'image/rightArrow.svg'>
+            <img id = 'pro2_right' src = 'image/pro2_main_right_frame_1.svg'>
+            <img id = 'pro2_right_des' src = 'image/pro2_main_right_des.svg'>
+            <img id = 'assetsp' src = 'image/predict_image2.png'>
+        </div>
+
+        <div class = 'project3'>
+            <img id = 'asset11' src = 'image/pro3.svg'>
+        </div>
+
+        <img class = 'asset13' src = 'image/caution.svg'>
+        <img class = 'asset14' src = 'image/copyright.svg'>
+    </div>
+
+    <div class = ' wrapper_small'>
+        <img class = 'logo_small' src = 'image/COLLAGE-ZERO_logo.png'>
+        <img class =  'asset2_small' src = "image/asset1_small.svg">
+        <img class = 'info_small' src = 'image/info_small.svg'>
+        <img class = 'company_small' src = 'image/company_small.svg'>
+        <img class = 'project_small' src = 'image/project_small.svg'>
+        <img class = 'project1_small' src = 'image/pro1_small.svg'>
+        <img class = 'predict1_small' src = 'image/predict_image.png'>
+        <img class = 'project2_small' src = 'image/project2_small.svg'>
+        <img class = 'predict2_small' src = 'image/predict_image2.png'>
+        <img class = 'project3_small' src = 'image/project3_small.svg'>
+        <img class = 'copy_small' src = 'image/copy_small.svg'>
+    </div>
+
+    <script>
+        var isScrolling = false;
+
+        window.addEventListener("scroll", throttleScroll, false);
+
+        function throttleScroll(e) {
+            if (isScrolling == false) {
+                window.requestAnimationFrame(function() {
+                    scrolling(e);
+                    isScrolling = false;
+                });
+            }
+            isScrolling = true;
+        }
+
+        function isPartiallyVisible(el) {
+            var elementBoundary = el.getBoundingClientRect();
+
+            var top = elementBoundary.top;
+            var bottom = elementBoundary.bottom;
+            var height = elementBoundary.height;
+
+            return ((top + height >= 0) && (height + window.innerHeight >= bottom));
+        }
+
+
+        document.addEventListener("DOMContentLoaded", scrolling, false);
+        const info =  document.querySelector('#info');
+        const company =  document.querySelector('#asset4');
+        const project =  document.querySelector('#asset5');
+        const project1 =  document.querySelector('#asset6');
+        const project1Main =  document.querySelector('#asset7');
+        const project1Predict =  document.querySelector('#asset8');
+        const project2 = document.querySelector('#asset9');
+        const rightArrow = document.querySelector('#right_arrow');
+        const project2Main_left =  document.querySelector('#pro2_left');
+        const project2Main_right =  document.querySelector('#pro2_right');
+        const project2Main_right_des =  document.querySelector('#pro2_right_des');
+        const project2Predict =  document.querySelector('#assetsp');
+        const project3 = document.querySelector('#asset11');
+
+
+
+        function scrolling(e) {
+            if (isFullyVisible(info)) {
+                info.classList.add("active");
+            }else if (isFullyVisible(company)) {
+                company.classList.add('active');
+            }else if(isFullyVisible(project)){
+                project.classList.add('active');
+            } else if(isFullyVisible(project1)){
+                project1.classList.add('active');
+                project1Main.classList.add('active');
+                project1Predict.classList.add('active');
+            } else if(isFullyVisible(project2)){
+                project2.classList.add('active');
+                project2Main_left.classList.add('active');
+                project2Main_right.classList.add('active');
+                project2Main_right.classList.add('active');
+                project2Main_right_des.classList.add('active');
+                project2Predict.classList.add('active');
+                rightArrow.classList.add('active');
+            } else if(isFullyVisible(project3)){
+                project3.classList.add('active');
+            }
+        }
+
+        function isFullyVisible(el) {
+            var elementBoundary = el.getBoundingClientRect();
+
+            var top = elementBoundary.top;
+            var bottom = elementBoundary.bottom;
+
+            return ((top >= 0) && (bottom <= window.innerHeight));
+        }
+
+
+    </script>
+</body>
+</html>
