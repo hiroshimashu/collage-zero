@@ -1458,6 +1458,46 @@ body {
     transform: translate3d(0, 0, 0);
     opacity: 1;
 }
+#project-main15-small {
+    display: none;
+    position: absolute;
+    width: 76.03vw;
+    height: 0.236%;
+    left: 12.597vw;
+    top: 40.497%;
+    font-family: "kozuka-gothic-pr6n";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.517vw;
+    letter-spacing:0.43vw;
+    line-height: 4.817vw;
+    white-space: normal;
+    color:#FFFFFF;
+    transition: all .7s ease-in-out;
+    transform: translate3d(0, 30px, 0);
+    opacity: 0;
+}
+
+#project-main15-small.active {
+    display: none;
+    position: absolute;
+    width: 76.03vw;
+    height: 0.236%;
+    left: 12.597vw;
+    top: 40.497%;
+    font-family: "kozuka-gothic-pr6n";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.517vw;
+    letter-spacing:0.43vw;
+    line-height: 4.817vw;
+    white-space: normal;
+    color:#FFFFFF;
+    transition: all .7s ease-in-out;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
 
 
 #project1_small {
@@ -1959,6 +1999,46 @@ body {
     transform: translate3d(0, 0, 0);
     opacity: 1;
 }
+
+#project1-caution-small{
+    display: none;
+    position: absolute;
+    width: 62.537vw;
+    height: 0.2062%;
+    left: 18.499vw;
+    top: 58.6184%;
+    font-family: "kozuka-gothic-pr6n";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.257vw;
+    letter-spacing:0.9771vw;
+    line-height: 3.035vw;
+    white-space: normal;
+    color:#FFFFFF;
+    transition: all .7s ease-in-out;
+    transform: translate3d(0, 30px, 0);
+    opacity: 0;
+}
+#project1-caution-small.active{
+    display: none;
+    position: absolute;
+    width: 62.537vw;
+    height: 0.2062%;
+    left: 18.499vw;
+    top: 58.6184%;
+    font-family: "kozuka-gothic-pr6n";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.257vw;
+    letter-spacing:0.9771vw;
+    line-height: 3.035vw;
+    white-space: normal;
+    color:#FFFFFF;
+    transition: all .7s ease-in-out;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
 
 
 #project2_small {
@@ -2507,6 +2587,46 @@ body {
     transform: translate3d(0, 0, 0);
     opacity: 1;
 }
+#project2-caution-small{
+    display: none;
+    position: absolute;
+    width: 62.537vw;
+    height: 0.2062%;
+    left: 18.499vw;
+    top: 76.8574%;
+    font-family: "kozuka-gothic-pr6n";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.257vw;
+    letter-spacing:0.9771vw;
+    line-height: 3.035vw;
+    white-space: normal;
+    color:#FFFFFF;
+    transition: all .7s ease-in-out;
+    transform: translate3d(0, 30px, 0);
+    opacity: 0;
+}
+#project2-caution-small.active{
+    display: none;
+    position: absolute;
+    width: 62.537vw;
+    height: 0.2062%;
+    left: 18.499vw;
+    top: 76.8574%;
+    font-family: "kozuka-gothic-pr6n";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.257vw;
+    letter-spacing:0.9771vw;
+    line-height: 3.035vw;
+    white-space: normal;
+    color:#FFFFFF;
+    transition: all .7s ease-in-out;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
+
 
 #predict2_small {
     display: none;
@@ -2922,6 +3042,45 @@ body {
     white-space: normal;
     color: #FFFFFF;
     text-align: center;
+    transition: all .7s ease-in-out;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
+#project3-caution-small{
+    display: none;
+    position: absolute;
+    width: 62.537vw;
+    height: 0.2062%;
+    left: 18.499vw;
+    top: 93.4624%;
+    font-family: "kozuka-gothic-pr6n";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.257vw;
+    letter-spacing:0.9771vw;
+    line-height: 3.035vw;
+    white-space: normal;
+    color:#FFFFFF;
+    transition: all .7s ease-in-out;
+    transform: translate3d(0, 30px, 0);
+    opacity: 0;
+}
+#project3-caution-small.active{
+    display: none;
+    position: absolute;
+    width: 62.537vw;
+    height: 0.2062%;
+    left: 18.499vw;
+    top: 93.4624%;
+    font-family: "kozuka-gothic-pr6n";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.257vw;
+    letter-spacing:0.9771vw;
+    line-height: 3.035vw;
+    white-space: normal;
+    color:#FFFFFF;
     transition: all .7s ease-in-out;
     transform: translate3d(0, 0, 0);
     opacity: 1;
@@ -3710,6 +3869,43 @@ body {
     opacity: 1;
 }
 
+#project-main9 {
+    position: absolute;
+    width: 55.37vw;
+    height: 0.3226%;
+    left: 24.157vw;
+    top: 47.7238%;
+    font-family: "kozuka-gothic-pr6n";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 0.65vw;
+    letter-spacing: 0.35vw;
+    white-space: normal;
+    color:#FFFFFF;
+    transition: all .7s ease-in-out;
+    transform: translate3d(0,30px, 0);
+    opacity: 0;
+}
+
+#project-main9.active {
+    position: absolute;
+    width: 55.37vw;
+    height: 0.3226%;
+    left: 24.157vw;
+    top: 47.7238%;
+    font-family: "kozuka-gothic-pr6n";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 0.65vw;
+    letter-spacing: 0.35vw;
+    white-space: normal;
+    color:#FFFFFF;
+    transition: all .7s ease-in-out;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
+
 
 
 
@@ -4007,7 +4203,7 @@ body {
     position: absolute;
     width: 10.497vw;
     height: 0.13%;
-    left: 30.115vw;
+    left: 28.115vw;
     top: 60.842%;
     font-family: "kozuka-gothic-pr6n";
     font-weight: 200;
@@ -4024,7 +4220,7 @@ body {
     position: absolute;
     width: 14.497vw;
     height: 0.13%;
-    left: 30.115vw;
+    left: 28.115vw;
     top: 60.842%;
     font-family: "kozuka-gothic-pr6n";
     font-weight: 200;
@@ -4040,14 +4236,14 @@ body {
 
 #project1-explanation2 {
     position: absolute;
-    width: 13.129vw;
+    width: 17.129vw;
     height: 0.137%;
-    left: 57.342vw;
+    left: 56.342vw;
     top: 60.842%;
     font-family: "kozuka-gothic-pr6n";
     font-weight: 200;
     font-style: normal;
-    font-size: 0.694vw;
+    font-size: 0.90vw;
     letter-spacing: 0.138vw;
     white-space: normal;
     color:#FFFFFF;
@@ -4055,16 +4251,16 @@ body {
     transform: translate3d(0, 30px, 0);
     opacity: 0;
 }
-#project1-explanation2 {
+#project1-explanation2.active {
     position: absolute;
-    width: 13.129vw;
+    width: 17.129vw;
     height: 0.137%;
-    left: 57.342vw;
+    left: 56.342vw;
     top: 60.842%;
     font-family: "kozuka-gothic-pr6n";
     font-weight: 200;
     font-style: normal;
-    font-size: 0.694vw;
+    font-size: 0.90vw;
     letter-spacing: 0.138vw;
     white-space: normal;
     color:#FFFFFF;
@@ -4072,6 +4268,78 @@ body {
     transform: translate3d(0, 0, 0);
     opacity: 1;
 }
+#project1-caution1 {
+    position: absolute;
+    left: 24.357vw;
+    width: 30.149vw;
+    height: 0.159%;
+    top: 61.442%;
+    font-family: "kozuka-gothic-pr6n";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 0.8061vw;
+    letter-spacing: 0.241vw;
+    white-space: normal;
+    color:#FFFFFF;
+    transition: all .7s ease-in-out;
+    transform: translate3d(0, 30px, 0);
+    opacity: 0;
+}
+#project1-caution1.active {
+    position: absolute;
+    left: 24.357vw;
+    width: 30.149vw;
+    height: 0.159%;
+    top: 61.442%;
+    font-family: "kozuka-gothic-pr6n";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 0.8061vw;
+    letter-spacing: 0.241vw;
+    white-space: normal;
+    color:#FFFFFF;
+    transition: all .7s ease-in-out;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
+
+#project1-caution2 {
+    position: absolute;
+    left: 25.4041vw;
+    width: 30.149vw;
+    height: 0.159%;
+    top: 61.76%;
+    font-family: "kozuka-gothic-pr6n";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 0.8061vw;
+    letter-spacing: 0.241vw;
+    white-space: normal;
+    color:#FFFFFF;
+    transition: all .7s ease-in-out;
+    transform: translate3d(0, 30px, 0);
+    opacity: 0;
+}
+#project1-caution2.active {
+    position: absolute;
+    left: 25.4041vw;
+    width: 30.149vw;
+    height: 0.159%;
+    top: 61.76%;
+    font-family: "kozuka-gothic-pr6n";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 0.8061vw;
+    letter-spacing: 0.241vw;
+    white-space: normal;
+    color:#FFFFFF;
+    transition: all .7s ease-in-out;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
+
 
 
 .project2_small {
@@ -4340,14 +4608,14 @@ body {
 }
 #project2-left-explanation1 {
     position: absolute;
-    width: 19.241vw;
+    width: 23.241vw;
     height: 0.137%;
-    left: 25.73vw;
+    left: 23.73vw;
     top: 74.395%;
     font-family: "kozuka-gothic-pr6n";
     font-weight: 200;
     font-style: normal;
-    font-size: 0.694vw;
+    font-size: 0.90vw;
     letter-spacing: 0.138vw;
     white-space: normal;
     color:#FFFFFF;
@@ -4357,14 +4625,14 @@ body {
 }
 #project2-left-explanation1.active {
     position: absolute;
-    width: 19.241vw;
+    width: 23.241vw;
     height: 0.137%;
-    left: 25.73vw;
+    left: 23.73vw;
     top: 74.395%;
     font-family: "kozuka-gothic-pr6n";
     font-weight: 200;
     font-style: normal;
-    font-size: 0.694vw;
+    font-size: 0.90vw;
     letter-spacing: 0.138vw;
     white-space: normal;
     color:#FFFFFF;
@@ -4427,14 +4695,14 @@ body {
 
 #project2-right-explanation2 {
     position: absolute;
-    width: 20.460vw;
+    width: 24.460vw;
     height: 0.137%;
-    left: 53.688vw;
+    left: 52.688vw;
     top: 74.395%;
     font-family: "kozuka-gothic-pr6n";
     font-weight: 200;
     font-style: normal;
-    font-size: 0.694vw;
+    font-size: 0.90vw;
     letter-spacing: 0.138vw;
     white-space: normal;
     color:#FFFFFF;
@@ -4444,14 +4712,14 @@ body {
 }
 #project2-right-explanation2.active {
     position: absolute;
-    width: 20.460vw;
+    width: 24.460vw;
     height: 0.137%;
-    left: 53.688vw;
+    left: 52.688vw;
     top: 74.395%;
     font-family: "kozuka-gothic-pr6n";
     font-weight: 200;
     font-style: normal;
-    font-size: 0.694vw;
+    font-size: 0.90vw;
     letter-spacing: 0.138vw;
     white-space: normal;
     color:#FFFFFF;
@@ -4459,6 +4727,80 @@ body {
     transform: translate3d(0, 0, 0);
     opacity: 1;
 }
+
+#project2-caution1 {
+    position: absolute;
+    left: 24.357vw;
+    width: 30.149vw;
+    height: 0.159%;
+    top: 74.995%;
+    font-family: "kozuka-gothic-pr6n";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 0.8061vw;
+    letter-spacing: 0.241vw;
+    white-space: normal;
+    color:#FFFFFF;
+    transition: all .7s ease-in-out;
+    transform: translate3d(0, 30px, 0);
+    opacity: 0;
+}
+#project2-caution1.active {
+    position: absolute;
+    left: 24.357vw;
+    width: 30.149vw;
+    height: 0.159%;
+    top: 74.995%;
+    font-family: "kozuka-gothic-pr6n";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 0.8061vw;
+    letter-spacing: 0.241vw;
+    white-space: normal;
+    color:#FFFFFF;
+    transition: all .7s ease-in-out;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
+
+#project2-caution2 {
+    position: absolute;
+    left: 25.4041vw;
+    width: 30.149vw;
+    height: 0.159%;
+    top: 75.313%;
+    font-family: "kozuka-gothic-pr6n";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 0.8061vw;
+    letter-spacing: 0.241vw;
+    white-space: normal;
+    color:#FFFFFF;
+    transition: all .7s ease-in-out;
+    transform: translate3d(0, 30px, 0);
+    opacity: 0;
+}
+#project2-caution2.active {
+    position: absolute;
+    left: 25.4041vw;
+    width: 30.149vw;
+    height: 0.159%;
+    top: 75.313%;
+    font-family: "kozuka-gothic-pr6n";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 0.8061vw;
+    letter-spacing: 0.241vw;
+    white-space: normal;
+    color:#FFFFFF;
+    transition: all .7s ease-in-out;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
+
+
 
 #pro2_right_des{
     position: absolute;
@@ -4703,14 +5045,14 @@ body {
 
 #project3-explanation1 {
     position: absolute;
-    width: 10.497vw;
+    width: 12.497vw;
     height: 0.137%;
-    left: 30.1458vw;
+    left: 28.1458vw;
     top: 86.984%;
     font-family: "kozuka-gothic-pr6n";
     font-weight: 200;
     font-style: normal;
-    font-size: 0.694vw;
+    font-size: 0.90vw;
     letter-spacing: 0.138vw;
     white-space: normal;
     color:#FFFFFF;
@@ -4720,14 +5062,14 @@ body {
 }
 #project3-explanation1.active {
     position: absolute;
-    width: 10.497vw;
+    width: 12.497vw;
     height: 0.137%;
-    left: 30.1458vw;
+    left: 28.1458vw;
     top: 86.984%;
     font-family: "kozuka-gothic-pr6n";
     font-weight: 200;
     font-style: normal;
-    font-size: 0.694vw;
+    font-size: 0.90vw;
     letter-spacing: 0.138vw;
     white-space: normal;
     color:#FFFFFF;
@@ -4738,14 +5080,14 @@ body {
 
 #project3-explanation2 {
     position: absolute;
-    width: 12.0595vw;
+    width: 15.0595vw;
     height: 0.137%;
-    left: 57.865vw;
+    left: 56.865vw;
     top: 86.984%;
     font-family: "kozuka-gothic-pr6n";
     font-weight: 200;
     font-style: normal;
-    font-size: 0.694vw;
+    font-size: 0.90vw;
     letter-spacing: 0.138vw;
     white-space: normal;
     color:#FFFFFF;
@@ -4755,14 +5097,14 @@ body {
 }
 #project3-explanation2.active {
     position: absolute;
-    width: 12.0595vw;
+    width: 15.0595vw;
     height: 0.137%;
-    left: 57.865vw;
+    left: 56.865vw;
     top: 86.984%;
     font-family: "kozuka-gothic-pr6n";
     font-weight: 200;
     font-style: normal;
-    font-size: 0.694vw;
+    font-size: 0.90vw;
     letter-spacing: 0.138vw;
     white-space: normal;
     color:#FFFFFF;
@@ -6301,6 +6643,47 @@ body {
         opacity: 1;
     }
 
+    #project-main15-small {
+        display: block;
+        position: absolute;
+        width: 76.03vw;
+        height: 0.236%;
+        left: 12.597vw;
+        top: 40.497%;
+        font-family: "kozuka-gothic-pr6n";
+        font-weight: 200;
+        font-style: normal;
+        font-size: 1.517vw;
+        letter-spacing:0.43vw;
+        line-height: 4.817vw;
+        white-space: normal;
+        color:#FFFFFF;
+        transition: all .7s ease-in-out;
+        transform: translate3d(0, 30px, 0);
+        opacity: 0;
+    }
+
+    #project-main15-small.active {
+        display: block;
+        position: absolute;
+        width: 76.03vw;
+        height: 0.236%;
+        left: 12.597vw;
+        top: 40.497%;
+        font-family: "kozuka-gothic-pr6n";
+        font-weight: 200;
+        font-style: normal;
+        font-size: 1.517vw;
+        letter-spacing:0.43vw;
+        line-height: 4.817vw;
+        white-space: normal;
+        color:#FFFFFF;
+        transition: all .7s ease-in-out;
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+
+
 
     #project1_small {
         display: block;
@@ -6765,6 +7148,44 @@ body {
         font-weight: 200;
         font-style: normal;
         font-size: 3.257vw;
+        letter-spacing:0.9771vw;
+        line-height: 3.035vw;
+        white-space: normal;
+        color:#FFFFFF;
+        transition: all .7s ease-in-out;
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+    #project1-caution-small{
+        display: block;
+        position: absolute;
+        width: 62.537vw;
+        height: 0.2062%;
+        left: 18.499vw;
+        top: 58.6184%;
+        font-family: "kozuka-gothic-pr6n";
+        font-weight: 200;
+        font-style: normal;
+        font-size: 1.257vw;
+        letter-spacing:0.9771vw;
+        line-height: 3.035vw;
+        white-space: normal;
+        color:#FFFFFF;
+        transition: all .7s ease-in-out;
+        transform: translate3d(0, 30px, 0);
+        opacity: 0;
+    }
+    #project1-caution-small.active{
+        display: block;
+        position: absolute;
+        width: 62.537vw;
+        height: 0.2062%;
+        left: 18.499vw;
+        top: 58.6184%;
+        font-family: "kozuka-gothic-pr6n";
+        font-weight: 200;
+        font-style: normal;
+        font-size: 1.257vw;
         letter-spacing:0.9771vw;
         line-height: 3.035vw;
         white-space: normal;
@@ -7347,6 +7768,45 @@ body {
         transform: translate3d(0, 0, 0);
         opacity: 1;
     }
+    #project2-caution-small{
+        display: block;
+        position: absolute;
+        width: 62.537vw;
+        height: 0.2062%;
+        left: 18.499vw;
+        top: 76.8574%;
+        font-family: "kozuka-gothic-pr6n";
+        font-weight: 200;
+        font-style: normal;
+        font-size: 1.257vw;
+        letter-spacing:0.9771vw;
+        line-height: 3.035vw;
+        white-space: normal;
+        color:#FFFFFF;
+        transition: all .7s ease-in-out;
+        transform: translate3d(0, 30px, 0);
+        opacity: 0;
+    }
+    #project2-caution-small.active{
+        display: block;
+        position: absolute;
+        width: 62.537vw;
+        height: 0.2062%;
+        left: 18.499vw;
+        top: 76.8574%;
+        font-family: "kozuka-gothic-pr6n";
+        font-weight: 200;
+        font-style: normal;
+        font-size: 1.257vw;
+        letter-spacing:0.9771vw;
+        line-height: 3.035vw;
+        white-space: normal;
+        color:#FFFFFF;
+        transition: all .7s ease-in-out;
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+
 
     #predict2_small {
         display: block;
@@ -7762,6 +8222,45 @@ body {
         white-space: normal;
         color: #FFFFFF;
         text-align: center;
+        transition: all .7s ease-in-out;
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+
+    #project3-caution-small{
+        display: block;
+        position: absolute;
+        width: 62.537vw;
+        height: 0.2062%;
+        left: 18.499vw;
+        top: 93.4624%;
+        font-family: "kozuka-gothic-pr6n";
+        font-weight: 200;
+        font-style: normal;
+        font-size: 1.257vw;
+        letter-spacing:0.9771vw;
+        line-height: 3.035vw;
+        white-space: normal;
+        color:#FFFFFF;
+        transition: all .7s ease-in-out;
+        transform: translate3d(0, 30px, 0);
+        opacity: 0;
+    }
+    #project3-caution-small.active{
+        display: block;
+        position: absolute;
+        width: 62.537vw;
+        height: 0.2062%;
+        left: 18.499vw;
+        top: 93.4624%;
+        font-family: "kozuka-gothic-pr6n";
+        font-weight: 200;
+        font-style: normal;
+        font-size: 1.257vw;
+        letter-spacing:0.9771vw;
+        line-height: 3.035vw;
+        white-space: normal;
+        color:#FFFFFF;
         transition: all .7s ease-in-out;
         transform: translate3d(0, 0, 0);
         opacity: 1;

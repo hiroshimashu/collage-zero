@@ -107,6 +107,9 @@
         <div id = 'project-main8'>
             つの機能を実現します。
         </div>
+        <div id = 'project-main9'>
+            ※ＣＭ好感度は株式会社東京企画(ＣＭ総合研究所)の登録商標です。
+        </div>
     </div>
 
     <div class = 'project1'>
@@ -137,6 +140,13 @@
             システムがCM好感度を事前予測
         </div>
         <img id = 'asset8' src = 'image/predict_image.png'>
+
+        <div id = 'project1-caution1'>
+            ※各画像は研究時のモックアップ画面です。
+        </div>
+        <div id = 'project1-caution2' >
+            β版リリースに向けユーザーインターフェースは開発中です。
+        </div>
     </div>
 
     <div class = 'project2'>
@@ -170,6 +180,12 @@
             システムが狙った好感要因を導くキーワードを提示
         </div>
         <img id = 'project2-right-graph' src = 'image/predict_image2.png'>
+        <div id = 'project2-caution1'>
+            ※各画像は研究時のモックアップ画面です。
+        </div>
+        <div id = 'project2-caution2' >
+            β版リリースに向けユーザーインターフェースは開発中です。
+        </div>
     </div>
 
     <div class = 'project3'>
@@ -322,6 +338,9 @@
         <div id="project-main14-small">
             を実現します。
         </div>
+        <div id =  'project-main15-small'>
+            ※ＣＭ好感度は株式会社東京企画(ＣＭ総合研究所)の登録商標です。
+        </div>
     </div>
     <div class = 'project1-small'>
         <img id = 'project1_small' src = 'image/project1_title_small.svg'>
@@ -359,7 +378,11 @@
         <dvi id = 'project1-explanation2-small'>
             システムがCM好感度を事前予測
         </dvi>
+        <div id = 'project1-caution-small'>
+            ※各画像は研究時のモックアップ画面です。β版リリースに向けユーザーインターフェースは開発中です。
+        </div>
         <img id = 'predict1_small' src = 'image/predict_image.png'>
+
     </div>
     <div class =  'project2-small'>
         <img id = 'project2_small' src = 'image/project2_title_small.svg'>
@@ -400,6 +423,9 @@
         <div id =  'project2-explanation4-small'>
             キーワードを提示
         </div>
+        <div id = 'project2-caution-small'>
+            ※各画像は研究時のモックアップ画面です。β版リリースに向けユーザーインターフェースは開発中です。
+        </div>
         <img id = 'project2-predict1-small' src = 'image/favorability_input_UI.png'>
         <img id = 'predict2_small' src = 'image/predict_image2.png'>
     </div>
@@ -432,6 +458,9 @@
         </div>
         <div id =  'project3-explanation2-small'>
             システムが類似したCMを抽出
+        </div>
+        <div id = 'project3-caution-small'>
+            ※各画像は研究時のモックアップ画面です。β版リリースに向けユーザーインターフェースは開発中です。
         </div>
     </div>
     <img class = 'copy_small' src = 'image/copy_small.svg'>
@@ -524,6 +553,7 @@ window.onload = function() {
         const project_small13 = document.querySelector('#project-main12-small');
         const project_small14 = document.querySelector('#project-main13-small');
         const project_small15 = document.querySelector('#project-main14-small');
+        const project_small16 = document.querySelector("#project-main15-small");
 
         const project1_small = document.querySelector('#project1_small');
         const project1_small2 = document.querySelector('#project1-main1-small');
@@ -539,6 +569,7 @@ window.onload = function() {
         const project1_small12 = document.querySelector('#project1-explanation1-small');
         const project1_small13 = document.querySelector('#project1-explanation2-small');
         const project1_small14 = document.querySelector('#predict1_small');
+        const project1_small15 = document.querySelector('#project1-caution-small');
 
         const project2_small = document.querySelector('#project2_small');
         const project2_small2 = document.querySelector('#project2-main1-small');
@@ -556,6 +587,7 @@ window.onload = function() {
         const project2_small14 = document.querySelector('#project2-explanation4-small');
         const project2_small15 = document.querySelector('#project2-predict1-small');
         const project2_small16 = document.querySelector('#predict2_small');
+        const project2_small17 = document.querySelector('#project2-caution-small');
 
         const project3_small = document.querySelector('#project3-title-small');
         const project3_small2 = document.querySelector('#project3-main1-small');
@@ -568,7 +600,7 @@ window.onload = function() {
         const project3_small9 = document.querySelector('#project3-graph-small');
         const project3_small10 = document.querySelector('#project3-explanation1-small');
         const project3_small11 = document.querySelector('#project3-explanation2-small');
-
+        const project3_small12 = document.querySelector('#project3-caution-small');
 
         function scrolling(e) {
             if (isFullyVisible(info_small)) {
@@ -609,6 +641,7 @@ window.onload = function() {
                 project_small13.classList.add('active');
                 project_small14.classList.add('active');
                 project_small15.classList.add('active');
+                project_small16.classList.add('active');
             } else if (isFullyVisible(project1_small)) {
                 project1_small.classList.add('active');
                 project1_small2.classList.add('active');
@@ -624,6 +657,7 @@ window.onload = function() {
                 project1_small12.classList.add('active');
                 project1_small13.classList.add('active');
                 project1_small14.classList.add('active');
+                project1_small15.classList.add('active');
             } else if (isFullyVisible(project2_small)) {
                 project2_small.classList.add('active');
                 project2_small2.classList.add('active');
@@ -641,6 +675,7 @@ window.onload = function() {
                 project2_small14.classList.add('active');
                 project2_small15.classList.add('active');
                 project2_small16.classList.add('active');
+                project2_small17.classList.add('active');
             } else if (isFullyVisible(project3_small)) {
                 project3_small.classList.add('active');
                 project3_small2.classList.add('active');
@@ -653,6 +688,7 @@ window.onload = function() {
                 project3_small9.classList.add('active');
                 project3_small10.classList.add('active');
                 project3_small11.classList.add('active');
+                project3_small12.classList.add('active');
             }
         }
 
@@ -718,6 +754,7 @@ window.onload = function() {
         var project_7 = document.querySelector('#project-main6');
         var project_8 = document.querySelector('#project-main7');
         var project_9 = document.querySelector('#project-main8');
+        var project_10 = document.querySelector('#project-main9');
 
 
         var project1 = document.querySelector('#asset6');
@@ -730,6 +767,9 @@ window.onload = function() {
         var project1_exp1 = document.querySelector('#project1-explanation1');
         var project1_exp2 = document.querySelector('#project1-explanation2');
         var project1Predict = document.querySelector('#asset8');
+        var project1_catution1 = document.querySelector('#project1-caution1');
+        var project1_catution2 = document.querySelector('#project1-caution2');
+
 
 
         var project2 = document.querySelector('#asset9');
@@ -745,6 +785,9 @@ window.onload = function() {
         const project2Main_right_des = document.querySelector('#project2-right-explanation2');
         const project2Predict = document.querySelector('#project2-right-graph');
         const project2_left_graph = document.querySelector('#project2-left-graph');
+        var project2_catution1 = document.querySelector('#project2-caution1');
+        var project2_catution2 = document.querySelector('#project2-caution2');
+
 
 
         const project3 = document.querySelector('#project3');
@@ -758,34 +801,7 @@ window.onload = function() {
 
         const caution1 = document.querySelector('#caution1');
         const caution2 = document.querySelector('#caution2');
-        /*
-         <div id =  'project3-main1'>
-         新たに企画したTVCMの字コンテから、そのCMに類似した
-         </div>
-         <div id =  'project3-main2'>
-         過去のCMを検索することができます。広告主ならびにクリエ
-         </div>
-         <div id =  'project3-main3'>
-         イターは、類似CMも参考しながら、CMの企画をブラッシュ
-         </div>
-         <div id = 'project3-main4'>
-         アップすることが可能になります。
-         </div>
-         <img id =  'project3-graph' src = 'image/project3_graph.svg'>
-         <div id =  'project3-explanation1'>
-         字コンテをシステムに入力
-         </div>
-         <div id =  'project3-explanation2'>
-         システムが類似したCMを抽出
-         </div>
-         </div>
 
-         <div id = 'caution1'>
-         ※各画像は研究時のモックアップ画面です。
-         </div>
-         <div id = 'caution2' >
-         β版リリースに向けユーザーインターフェースは開発中です。
-        */
 
 
         function scrolling(e) {
@@ -811,6 +827,7 @@ window.onload = function() {
                 project_7.classList.add('active');
                 project_8.classList.add('active');
                 project_9.classList.add('active');
+                project_10.classList.add('active');
             } else if (isFullyVisible(project1)) {
                 project1.classList.add('active');
                 project1Predict.classList.add('active');
@@ -822,6 +839,8 @@ window.onload = function() {
                 project1_exp1.classList.add('active');
                 project1_exp2.classList.add('active');
                 project1_graph.classList.add('active');
+                project1_catution1.classList.add('active');
+                project1_catution2.classList.add('active');
             } else if (isFullyVisible(project2)) {
                 project2.classList.add('active');
                 console.log(project2_main1);
@@ -837,6 +856,8 @@ window.onload = function() {
                 project2Main_right_des.classList.add('active');
                 project2Predict.classList.add('active');
                 project2_left_graph.classList.add('active');
+                project2_catution1.classList.add('active');
+                project2_catution2.classList.add('active');
                 rightArrow.classList.add('active');
             } else if (isFullyVisible(project3)) {
                 project3.classList.add('active');
