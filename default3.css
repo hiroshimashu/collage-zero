@@ -1,0 +1,413 @@
+html {
+    font-size: 12px;
+}
+
+body {
+    margin: 0;
+    z-index: 0;
+    font-family: "Helvetica Neue", 'arial';
+}
+
+.wf-loading .wrappper {
+    visibility: hidden;
+}
+
+.wf-active .wrappper {
+    visibility: visible;
+}
+
+
+.wrapper {
+    background-color: black;
+    overflow: hidden;
+    height: 3250px;
+}
+
+
+.top {
+    position: relative;
+    width: 625.5px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.asset1-wrapper {
+    position: absolute;
+    width: 341.135px;
+    height: 54.4px;
+    top: 169.774px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.asset {
+    width: 100%;
+    height: 100%;
+}
+
+.asset2-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.asset2 {
+    width: 100%;
+    height: 100%;
+    animation-name: keyframes1;
+    animation-name: keyframes2;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+
+@keyframes keyframes1 {
+    from {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.5);
+        animation-timing-function: ease-out;
+    }
+
+    50% {
+        transform: scale(1);
+        animation-timing-function: ease-out;
+    }
+
+    75% {
+        transform: scale(0.5);
+        animation-timing-function: ease-out;
+    }
+
+
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes keyframes2 {
+    from {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(10deg);
+        animation-timing-function: ease-out;
+    }
+
+    50% {
+        transform: rotate(0deg);
+        animation-timing-function: ease-out;
+    }
+
+    75% {
+        transform: rotate(-10deg);
+        animation-timing-function: ease-out;
+    }
+
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+.logo3-wrapper {
+    position: absolute;
+    width: 376.242px;
+    height: 17.3px;
+    top: 251.735px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo3 {
+    width:100%;
+    height: 100%;
+}
+
+.contact1-wrapper {
+    position: absolute;
+    width: 82.78px;
+    height: 12.36px;
+    top: 290.8px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contact1 {
+    width:100%;
+    height: 100%;
+}
+
+.down-arrow-wrapper {
+    position: absolute;
+    width: 65.35px;
+    height: 42px;
+    top: 392px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.down-arrow {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.info {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 304.37px;
+}
+
+.info-title-wrapper {
+    width: 250.328px;
+    height: 45.2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-title {
+    width: 100%;
+    height: 100%;
+}
+
+.link-pr {
+    text-decoration: none;
+}
+
+.info-main-wrapper {
+    display: flex;
+    margin-top: 68.8px;
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-main-title {
+    font-family : Helvetica Neue;
+    font-size : 17px;
+    font-weight: lighter;
+    letter-spacing : 1.7px;
+    color : #FFFFFF;
+}
+
+.info-main {
+    margin-top: -6px;
+    margin-left: 29px;
+    font-family : Kozuka Gothic Pr6N;
+    font-size : 15px;
+    font-weight: lighter;
+    line-height : 36px;
+    letter-spacing : 4.8px;
+    color : #FFFFFF;
+    color : rgb(255, 255, 255);
+}
+
+.info-main-wrapper-2 {
+    display: flex;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+}
+
+.info-main-2-title {
+    font-family : Helvetica Neue;
+    font-size : 17px;
+    font-weight: lighter;
+    letter-spacing : 1.7px;
+    color : #FFFFFF;
+}
+
+.info-main-2 {
+    margin-top: -6px;
+    margin-left: 29px;
+    font-family : Kozuka Gothic Pr6N;
+    font-size : 15px;
+    font-weight: lighter;
+    line-height : 36px;
+    letter-spacing : 4.8px;
+    color : #FFFFFF;
+    color : rgb(255, 255, 255);
+}
+
+
+.company {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 304.37px;
+}
+
+.company-title-wrapper {
+    width: 220.714px;
+    height: 45.2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.company-title {
+    width: 100%;
+    height: 100%;
+}
+
+.company-main-wrapper {
+    color: #FFFFFF;
+    font-family: "kozuka-gothic-pr6n";
+    font-weight: lighter;
+    font-size : 15px;
+    line-height : 36px;
+    letter-spacing : 2.64px;
+    width: 750px;
+    margin-top:65.445px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.company-main1-wrapper{
+    display: flex;
+}
+
+.company-main1-title {
+
+}
+
+.company-main1 {
+    margin-left: 25px;
+}
+
+.company-main2-wrapper {
+    display: flex;
+}
+
+.company-main2 {
+    margin-left: 25px;
+}
+
+.company-main3-wrapper {
+    display: flex;
+}
+
+.company-main3 {
+    margin-left: 25px;
+}
+
+.company-main4-wrapper {
+    display: flex;
+}
+
+.company-main4 {
+    margin-left: 25px;
+}
+
+.company-main5-wrapper {
+    display: flex;
+}
+
+.company-main5 {
+    margin-left: 25px;
+}
+
+
+
+
+.project {
+
+}
+
+.project-title-wrapper {
+    width: 449.875px;
+    height: 287.605px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 360.725px;
+}
+
+.project-title {
+    width: 100%;
+    height: 100%;
+}
+
+
+.project-main-wrapper {
+    font-family : Kozuka Gothic Pr6N;
+    font-weight: lighter;
+    font-size : 15px;
+    line-height : 36px;
+    letter-spacing : 4.8px;
+    color : #FFFFFF;
+    width: 508.7px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 58.9px;
+}
+
+
+
+.contact {
+    margin-top: 506px;
+    width: 169.11px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-copyright-wrapper {
+    width: 100%;
+    height: 14.181px;
+}
+
+.contact-copyright {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-main-wrapper {
+    width: 78px;
+    height: 12px;
+    margin-top: 23.527px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-main {
+    width: 100%;
+    height: 100%;
+}
+
+.upper-arrow-wrapper {
+    margin-top: 10px;
+    margin-left: auto;
+    width: 102.4px;
+    height: 21.5px;
+}
+
+.upper-arrow {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
