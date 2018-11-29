@@ -5,8 +5,17 @@ html {
 body {
     margin: 0;
     z-index: 0;
-
+    font-family: "Helvetica Neue", 'arial';
 }
+
+.wf-loading .wrappper {
+    visibility: hidden;
+}
+
+.wf-active .wrappper {
+    visibility: visible;
+}
+
 
 
 .wrappper {
@@ -14,12 +23,13 @@ body {
     width: 100vw;
     height: 549.7vw;
     background-color: black;
+    overflow: hidden;
 }
 .wrappper_small {
     display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (orientation: portrait) {
     .wrappper {
         display: none;
     }
@@ -29,6 +39,7 @@ body {
         width: 100vw;
         height: 1732vw;
         background-color: black;
+        overflow: hidden;
     }
 }
 
@@ -45,7 +56,7 @@ body {
 .logo3 {
     position: absolute;
     width: 37.624vw;
-    height: 0.936%;
+    height: 0.314%;
     top: 5.052%;
     left: 31.188vw;
 }
@@ -57,6 +68,22 @@ body {
     left: 34.95%;
     height: auto;
     top: 38%;
+}
+
+#contact1 {
+    position: absolute;
+    width: 8.5782vw;
+    height: auto;
+    top: 5.763%;
+    left: 46.0066vw;
+    font-family: "Helvetica Neue";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.72vw;
+    line-height: 1.72vw;
+    letter-spacing: 0.17vw;
+    white-space: normal;
+    color:#FFFFFF;
 }
 
 #mail-link {
@@ -79,22 +106,28 @@ body {
     animation-name: keyframes1;
     animation-name: keyframes2;
     animation-iteration-count: infinite;
-    animation-duration: 10s;
+    animation-duration: 20s;
 }
 
 @keyframes keyframes1 {
      from {
         transform: scale(1);
     }
-    33% {
-        transform: scale(1.2);
+    25% {
+        transform: scale(1.5);
         animation-timing-function: ease-out;
     }
 
-    66% {
-        transform: scale(0.8);
+    50% {
+        transform: scale(1);
         animation-timing-function: ease-out;
     }
+
+    75% {
+        transform: scale(0.5);
+        animation-timing-function: ease-out;
+    }
+
 
 
     to {
@@ -104,21 +137,26 @@ body {
 
 @keyframes keyframes2 {
     from {
-        transform: skewX(0deg);
+        transform: rotate(0deg);
     }
-    33% {
-        transform: skewX(-15deg);
+    25% {
+        transform: rotate(10deg);
         animation-timing-function: ease-out;
     }
 
-    66% {
-        transform: skewX(10deg);
+    50% {
+        transform: rotate(0deg);
+        animation-timing-function: ease-out;
+    }
+
+    75% {
+        transform: rotate(-10deg);
         animation-timing-function: ease-out;
     }
 
 
     to {
-        transform: skewX(0deg);
+        transform: rotate(0deg);
     }
 }
 
@@ -156,9 +194,49 @@ body {
     position: absolute;
     width: 75.157vw;
     left: 12.321vw;
-    height: 1.933%;
-    top: 3.254%;
+    height: 0.310%;
+    top: 4.49%;
 }
+
+#contact1-small {
+    display: none;
+    position: absolute;
+    width: 22.340vw;
+    height: auto;
+    left: 38.70vw;
+    top: 5.049%;
+    font-family: "kozuka-gothic-pr6n";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 4.517vw;
+    letter-spacing:0.60vw;
+    line-height: 4.817vw;
+    white-space: normal;
+    color:#FFFFFF;
+    transition: all .7s ease-in-out;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+#contact2-small {
+    display: none;
+    position: absolute;
+    width: 22.340vw;
+    height: 0.199%;
+    left: 38.70vw;
+    top: 98.501%;
+    font-family: "kozuka-gothic-pr6n";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 4.517vw;
+    letter-spacing:0.60vw;
+    line-height: 4.817vw;
+    white-space: normal;
+    color:#FFFFFF;
+    transition: all .7s ease-in-out;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
 #down-arrow-small {
     display: none;
     position: absolute;
@@ -208,7 +286,7 @@ body {
     white-space: normal;
     color:#FFFFFF;
     transition: all .7s ease-in-out;
-    transform: translate3d(0, 30px, 0) scaleX(1.1);
+    transform: translate3d(0, 30px, 0);
     opacity: 0;
 }
 
@@ -227,8 +305,17 @@ body {
     line-height: 4.817vw;
     white-space: normal;
     color:#FFFFFF;
-    transform: translate3d(0, 0, 0) scaleX(1.1);
+    transform: translate3d(0, 0, 0);
     opacity: 1;
+}
+
+.linkPR-small {
+    display: none;
+    position: absolute;
+    width: 74.955vw;
+    height: 0.70%;
+    left: 10.686vw;
+    top: 13.02%;
 }
 
 #info-main1-small {
@@ -3097,6 +3184,10 @@ body {
     top: 97.693%;
 }
 
+.copy_small1{
+    display: none;
+}
+
 .downArrow {
     position: absolute;
     width: 6.5349vw;
@@ -3126,12 +3217,21 @@ body {
     opacity: 1;
 }
 
+.linkPR {
+    position: absolute;
+    width: 45.234vw;
+    height: 1%;
+    top: 17.184%;
+    left: 35.818vw;
+    z-index: 5;
+}
+
 #info-main {
     font-family: "kozuka-gothic-pr6n";
     font-weight: 200;
     font-style: normal;
-    font-size: 1.226vw;
-    letter-spacing: 0.2vw;
+    font-size: 1.28vw;
+    letter-spacing: 0.3vw;
     color:#FFFFFF;
     position: absolute;
     width: 8.7057vw;
@@ -3163,21 +3263,37 @@ body {
     font-family: "kozuka-gothic-pr6n";
     font-weight: 200;
     font-style: normal;
-    font-size: 1.626vw;
+    font-size: 1.28vw;
     letter-spacing: 0.635vw;
     color:#FFFFFF;
     position: absolute;
-    width: 39.234vw;
-    height: 0.9025%;
+    width: 45.234vw;
+    height: 0.3008%;
     top: 17.184%;
     left: 35.818vw;
-    overflow: visible;
-    margin-left: -0.5vw;
     text-align: left;
     transition: all .7s ease-in-out;
     transform: translate3d(0, 30px, 0);
     opacity: 0;
 }
+#info-main2-2 {
+    font-family: "kozuka-gothic-pr6n";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.28vw;
+    letter-spacing: 0.635vw;
+    color:#FFFFFF;
+    position: absolute;
+    width: 45.234vw;
+    height: 0.3008%;
+    top: 17.7856%;
+    left: 35.818vw;
+    text-align: left;
+    transition: all .7s ease-in-out;
+    transform: translate3d(0, 30px, 0);
+    opacity: 0;
+}
+
 
 #info-main2 .release {
     font-family: "kozuka-gothic-pr6n";
@@ -3198,19 +3314,37 @@ body {
 
 
 #info-main2.active {
+    position: absolute;
     font-family: "kozuka-gothic-pr6n";
     font-weight: 200;
     font-style: normal;
     font-size: 1.28vw;
     letter-spacing: 0.635vw;
     color:#FFFFFF;
-    width: 41.234vw;
-    height: 0.9025%;
+    width: 45.234vw;
+    height: 0.3008%;
     top: 17.184%;
     left: 35.818vw;
-    overflow: visible;
     line-height: 2.0rem;
     text-align: left;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
+#info-main2-2.active {
+    font-family: "kozuka-gothic-pr6n";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.28vw;
+    letter-spacing: 0.635vw;
+    color:#FFFFFF;
+    position: absolute;
+    width: 45.234vw;
+    height: 0.3008%;
+    top: 17.7856%;
+    left: 35.818vw;
+    text-align: left;
+    transition: all .7s ease-in-out;
     transform: translate3d(0, 0, 0);
     opacity: 1;
 }
@@ -3566,7 +3700,12 @@ body {
     top: 38%;
 }
 
-
+#empty-box-for-animation{
+    position: absolute;
+    width: 100vw;
+    height: 5.232%;
+    top: 32.51%;
+}
 
 #asset5 {
     position: absolute;
@@ -3574,7 +3713,7 @@ body {
     height: 5.232%;
     left: 26.954vw;
     top: 36.11%;
-    transition: all .8s ease-in-out;
+    transition: all .7s ease-in-out;
     transform: translate3d(0, 30px, 0);
     opacity: 0;
 }
@@ -3878,7 +4017,7 @@ body {
     font-family: "kozuka-gothic-pr6n";
     font-weight: 200;
     font-style: normal;
-    font-size: 0.65vw;
+    font-size: 0.90vw;
     letter-spacing: 0.35vw;
     white-space: normal;
     color:#FFFFFF;
@@ -3896,7 +4035,7 @@ body {
     font-family: "kozuka-gothic-pr6n";
     font-weight: 200;
     font-style: normal;
-    font-size: 0.65vw;
+    font-size: 0.90vw;
     letter-spacing: 0.35vw;
     white-space: normal;
     color:#FFFFFF;
@@ -4952,7 +5091,7 @@ body {
 
 #project3-main3 {
     position: absolute;
-    width: 51.0528vw;
+    width: 53.0528vw;
     height: 0.2544%;
     left: 24.158vw;
     top: 82.592%;
@@ -4960,7 +5099,7 @@ body {
     font-weight: 200;
     font-style: normal;
     font-size: 1.28vw;
-    letter-spacing: 0.58vw;
+    letter-spacing: 0.515vw;
     white-space: normal;
     color:#FFFFFF;
     transition: all .7s ease-in-out;
@@ -4969,7 +5108,7 @@ body {
 }
 #project3-main3.active {
     position: absolute;
-    width: 51.0528vw;
+    width: 53.0528vw;
     height: 0.2544%;
     left: 24.158vw;
     top: 82.592%;
@@ -4977,7 +5116,7 @@ body {
     font-weight: 200;
     font-style: normal;
     font-size: 1.28vw;
-    letter-spacing: 0.58vw;
+    letter-spacing: 0.515vw;
     white-space: normal;
     color:#FFFFFF;
     transition: all .7s ease-in-out;
@@ -5212,9 +5351,20 @@ body {
 .asset14 {
     position: absolute;
     left: 41.54%;
-    width: 16.91%;
-    height: 0.905%;
+    width: 18.91%;
+    height: auto;
     top: 97.562%;
+    font-family: "Helvetica Neue";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.55vw;
+    line-height: 1.55vw;
+    letter-spacing: 0.149vw;
+    white-space: normal;
+    color:#FFFFFF;
+    transition: all .7s ease-in-out;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
 }
 
 #mail-link2 {
@@ -5234,6 +5384,21 @@ body {
     left: 11.805vw;
     top: 78.72%;
 }
+#contact2 {
+    position: absolute;
+    width: 8.5782vw;
+    height: 0.2249%;
+    top:  98.182%;
+    left: 45.5066vw;
+    font-family: "Helvetica Neue";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.72vw;
+    line-height: 1.72vw;
+    letter-spacing: 0.149vw;
+    white-space: normal;
+    color:#FFFFFF;
+}
 #upperArrow {
     display: block;
     position: absolute;
@@ -5249,7 +5414,7 @@ body {
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (orientation: portrait) {
     .logo_small {
         display: block;
         position: absolute;
@@ -5273,22 +5438,28 @@ body {
         animation-name: keyframes3;
         animation-name: keyframes4;
         animation-iteration-count: infinite;
-        animation-duration: 10s;
+        animation-duration: 20s;
     }
 
     @keyframes keyframes3 {
         from {
             transform: scale(1);
         }
-        33% {
-            transform: scale(1.2);
+        25% {
+            transform: scale(1.1);
             animation-timing-function: ease-out;
         }
 
-        66% {
-            transform: scale(0.85);
+        50% {
+            transform: scale(1);
             animation-timing-function: ease-out;
         }
+
+        75% {
+            transform: scale(0.9);
+            animation-timing-function: ease-out;
+        }
+
 
 
         to {
@@ -5298,33 +5469,48 @@ body {
 
     @keyframes keyframes4 {
         from {
-            transform: skewX(0deg);
+            transform: rotate(0deg);
         }
-        33% {
-            transform: skewX(10deg);
+        25% {
+            transform: rotate(10deg);
             animation-timing-function: ease-out;
         }
 
-        66% {
-            transform: skewX(-5deg);
+        50% {
+            transform: rotate(0deg);
+            animation-timing-function: ease-out;
+        }
+
+        75% {
+            transform: rotate(-10deg);
             animation-timing-function: ease-out;
         }
 
 
         to {
-            transform: skewX(0deg);
+            transform: rotate(0deg);
         }
     }
-
 
     #wrapper2_small {
         display: block;
         position: absolute;
         width: 75.157vw;
         left: 12.321vw;
-        height: 1.933%;
-        top: 3.254%;
+        height: 0.310%;
+        top: 4.49%;
     }
+
+    #contact1-small {
+        display: block;
+        position: absolute;
+        width: 20vw;
+        left: 42.5vw;
+        height: auto;
+        top: 5.054%;
+    }
+
+
     #mail-link-small {
         display: block;
         position: absolute;
@@ -5407,6 +5593,16 @@ body {
         color:#FFFFFF;
         transform: translate3d(0, 0, 0) scaleX(1.1);
         opacity: 1;
+    }
+
+    .linkPR-small {
+        display: block;
+        position: absolute;
+        width: 74.955vw;
+        height: 1.3%;
+        left: 10.686vw;
+        top: 13.02%;
+        z-index: 5;
     }
 
     #info-main1-small {
@@ -6653,7 +6849,7 @@ body {
         font-family: "kozuka-gothic-pr6n";
         font-weight: 200;
         font-style: normal;
-        font-size: 1.517vw;
+        font-size: 2.517vw;
         letter-spacing:0.43vw;
         line-height: 4.817vw;
         white-space: normal;
@@ -6673,7 +6869,7 @@ body {
         font-family: "kozuka-gothic-pr6n";
         font-weight: 200;
         font-style: normal;
-        font-size: 1.517vw;
+        font-size: 2.517vw;
         letter-spacing:0.43vw;
         line-height: 4.817vw;
         white-space: normal;
@@ -7166,8 +7362,8 @@ body {
         font-family: "kozuka-gothic-pr6n";
         font-weight: 200;
         font-style: normal;
-        font-size: 1.257vw;
-        letter-spacing:0.9771vw;
+        font-size: 1.957vw;
+        letter-spacing:0.5771vw;
         line-height: 3.035vw;
         white-space: normal;
         color:#FFFFFF;
@@ -7185,8 +7381,8 @@ body {
         font-family: "kozuka-gothic-pr6n";
         font-weight: 200;
         font-style: normal;
-        font-size: 1.257vw;
-        letter-spacing:0.9771vw;
+        font-size: 1.957vw;
+        letter-spacing:0.5771vw;
         line-height: 3.035vw;
         white-space: normal;
         color:#FFFFFF;
@@ -7778,8 +7974,8 @@ body {
         font-family: "kozuka-gothic-pr6n";
         font-weight: 200;
         font-style: normal;
-        font-size: 1.257vw;
-        letter-spacing:0.9771vw;
+        font-size: 1.957vw;
+        letter-spacing:0.5771vw;
         line-height: 3.035vw;
         white-space: normal;
         color:#FFFFFF;
@@ -7797,8 +7993,8 @@ body {
         font-family: "kozuka-gothic-pr6n";
         font-weight: 200;
         font-style: normal;
-        font-size: 1.257vw;
-        letter-spacing:0.9771vw;
+        font-size: 1.957vw;
+        letter-spacing:0.5771vw;
         line-height: 3.035vw;
         white-space: normal;
         color:#FFFFFF;
@@ -8018,7 +8214,7 @@ body {
         font-weight: 200;
         font-style: normal;
         font-size: 4.517vw;
-        letter-spacing:0.98vw;
+        letter-spacing:0.68vw;
         line-height: 4.517vw;
         white-space: normal;
         color:#FFFFFF;
@@ -8037,7 +8233,7 @@ body {
         font-weight: 200;
         font-style: normal;
         font-size: 4.517vw;
-        letter-spacing:0.98vw;
+        letter-spacing:0.68vw;
         line-height: 4.517vw;
         white-space: normal;
         color:#FFFFFF;
@@ -8275,6 +8471,37 @@ body {
         height: 0.982%;
         left: 22.103vw;
         top: 97.693%;
+        font-family: "kozuka-gothic-pr6n";
+        font-weight: 200;
+        font-style: normal;
+        font-size: 4.817vw;
+        letter-spacing:0.35vw;
+        line-height: 4.17vw;
+        white-space: normal;
+        color:#FFFFFF;
+        transition: all .7s ease-in-out;
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+
+    .copy_small1 {
+        display: block;
+        position: absolute;
+        width: 60.794vw;
+        height: auto;
+        left: 22.103vw;
+        top: 97.703%;
+        font-family: "kozuka-gothic-pr6n";
+        font-weight: 200;
+        font-style: normal;
+        font-size: 5.017vw;
+        letter-spacing:0.45vw;
+        line-height: 4.17vw;
+        white-space: normal;
+        color:#FFFFFF;
+        transition: all .7s ease-in-out;
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
     }
     #mail-link-small2{
         display: block;
@@ -8283,6 +8510,25 @@ body {
         height: 0.982%;
         left: 42vw;
         top: 98.093%;
+    }
+    #contact2-small {
+        display: block;
+        position: absolute;
+        width: 20vw;
+        height:auto;
+        left: 38.70vw;
+        top: 98.501%;
+        font-family: "kozuka-gothic-pr6n";
+        font-weight: 200;
+        font-style: normal;
+        font-size: 4.817vw;
+        letter-spacing:0.35vw;
+        line-height: 4.517vw;
+        white-space: normal;
+        color:#FFFFFF;
+        transition: all .7s ease-in-out;
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
     }
     #upperArrow_small {
         display: block;

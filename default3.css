@@ -18,9 +18,14 @@ body {
 
 
 .wrapper {
+    display: block;
     background-color: black;
     overflow: hidden;
     height: 3250px;
+}
+
+.wrapper-small {
+    display: none;
 }
 
 
@@ -394,6 +399,79 @@ body {
 
 
 
+
+
+/* -----------------        For small screen      -------------------- */
+
+@media  screen and (max-width: 768px) {
+    .wrapper {
+        display: none;
+    }
+
+    .wrapper-small {
+        display: block;
+        background-color: black;
+        overflow: hidden;
+        height: 2000px;
+    }
+
+
+    .top-small {
+        position: relative;
+        width: 91.7%;
+        height: auto;
+        padding: 128.3% 0 0;
+        margin-top: 29px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .background-image-wrapper {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 0%;
+        left: 0%;
+    }
+
+    .logo-small-wrapper {
+        position: absolute;
+        width: 71.5%;
+        height: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 32.4%;
+    }
+
+    .asset2-small-wrapper {
+        position: absolute;
+        width:  81.5%;
+        height: auto;
+        top: 50.6%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .contact-small-wrapper {
+        position: absolute;
+        width: 18.2%;
+        height: auto;
+        top: 58.65%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .down-arrow-small-wrapper {
+        position: absolute;
+        width: 14.22%;
+        height: auto;
+        top: 85.7%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+}
 
 
 
