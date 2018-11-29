@@ -465,10 +465,75 @@ body {
         position: absolute;
         width: 14.22%;
         height: auto;
-        top: 85.7%;
+        top: 78.7%;
         left: 50%;
         transform: translateX(-50%);
     }
+
+
+
+    /* ------------------- Information small --------------------- */
+    .information-smalll-wrapper {
+        margin-top: 84.738px;
+    }
+
+    .information-small-title-wrapper {
+        width: 59.2%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .information-small-title {
+        width: 100%;
+    }
+
+    .information-main1-small-wrapper {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: lighter;
+    }
+
+    .information-main1-date {
+        font-family : Helvetica Neue, Arial;
+        font-size : 21.23px;
+        letter-spacing : 0.9px;
+        color : #FFFFFF;
+        text-align: center;
+        margin-top: 64.4px;
+    }
+
+    .information-main1-small-content {
+        font-family : Kozuka Gothic Pr6N;
+        font-size : 16.45px;
+        line-height : 28.2px;
+        letter-spacing : 4.54px;
+        color : #FFFFFF;
+        text-align: justify;
+        text-justify: inter-ideograph;
+        margin-top: 28.9px;
+    }
+
+    .information-main1-small-content2 {
+        font-family : Kozuka Gothic Pr6N;
+        font-size : 16.45px;
+        line-height : 28.2px;
+        letter-spacing : 2.9px;
+        color : #FFFFFF;
+        text-align: justify;
+        text-justify: inter-ideograph;
+    }
+
+    .information-main1-small-content3 {
+        font-family: Kozuka Gothic Pr6N;
+        font-size: 16.45px;
+        line-height: 28.2px;
+        letter-spacing: 3.54px;
+        color: #FFFFFF;
+        text-align: justify;
+        text-justify: inter-ideograph;
+    }
+
 
 
 }
