@@ -412,16 +412,15 @@ body {
         display: block;
         background-color: black;
         overflow: hidden;
-        height: 2000px;
+        height: 3400px;
     }
-
 
     .top-small {
         position: relative;
         width: 91.7%;
         height: auto;
         padding: 128.3% 0 0;
-        margin-top: 29px;
+        margin-top: 68.15px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -445,7 +444,7 @@ body {
 
     .asset2-small-wrapper {
         position: absolute;
-        width:  81.5%;
+        width: 81.5%;
         height: auto;
         top: 50.6%;
         left: 50%;
@@ -470,11 +469,9 @@ body {
         transform: translateX(-50%);
     }
 
-
-
     /* ------------------- Information small --------------------- */
     .information-smalll-wrapper {
-        margin-top: 84.738px;
+        margin-top: 199.134px;
     }
 
     .information-small-title-wrapper {
@@ -495,31 +492,31 @@ body {
     }
 
     .information-main1-date {
-        font-family : Helvetica Neue, Arial;
-        font-size : 21.23px;
-        letter-spacing : 0.9px;
-        color : #FFFFFF;
+        font-family: Helvetica Neue, Arial;
+        font-size: 21.23px;
+        letter-spacing: 0.9px;
+        color: #FFFFFF;
         text-align: center;
         margin-top: 64.4px;
     }
 
     .information-main1-small-content {
-        font-family : Kozuka Gothic Pr6N;
-        font-size : 16.45px;
-        line-height : 28.2px;
-        letter-spacing : 4.54px;
-        color : #FFFFFF;
+        font-family: Kozuka Gothic Pr6N;
+        font-size: 16.45px;
+        line-height: 28.2px;
+        letter-spacing: 4.54px;
+        color: #FFFFFF;
         text-align: justify;
         text-justify: inter-ideograph;
         margin-top: 28.9px;
     }
 
     .information-main1-small-content2 {
-        font-family : Kozuka Gothic Pr6N;
-        font-size : 16.45px;
-        line-height : 28.2px;
-        letter-spacing : 2.9px;
-        color : #FFFFFF;
+        font-family: Kozuka Gothic Pr6N;
+        font-size: 16.45px;
+        line-height: 28.2px;
+        letter-spacing: 2.9px;
+        color: #FFFFFF;
         text-align: justify;
         text-justify: inter-ideograph;
     }
@@ -533,6 +530,192 @@ body {
         text-align: justify;
         text-justify: inter-ideograph;
     }
+
+    .information-main2-small-wrapper {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: lighter;
+    }
+
+    .information-main2-small-date {
+        font-family: Helvetica Neue, Arial;
+        font-size: 21.23px;
+        letter-spacing: 0.9px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 64.4px;
+    }
+
+    .link-pr-small {
+        text-decoration: none;
+    }
+
+    .information-main2-small-content {
+        font-family: Kozuka Gothic Pr6N;
+        font-size: 16.45px;
+        line-height: 28.2px;
+        letter-spacing: 4.14px;
+        color: #FFFFFF;
+        text-align: justify;
+        text-justify: inter-ideograph;
+        margin-top: 28.9px;
+    }
+
+    .information-main2-small-content2 {
+        font-family: Kozuka Gothic Pr6N;
+        font-size: 16.45px;
+        line-height: 28.2px;
+        letter-spacing: 2.54px;
+        color: #FFFFFF;
+        text-align: justify;
+        text-justify: inter-ideograph;
+    }
+
+    .information-main2-small-content3 {
+        font-family: Kozuka Gothic Pr6N;
+        font-size: 16.45px;
+        line-height: 28.2px;
+        letter-spacing: 3.54px;
+        color: #FFFFFF;
+        text-align: justify;
+        text-justify: inter-ideograph;
+    }
+
+    /* ------------------- Company small --------------------- */
+    .company-small-wrapper {
+        margin-top: 268.24px;
+    }
+
+    .company-small-title-wrapper {
+        width: 51.56%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .company-main-small-wrapper {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 45.35px;
+        text-align: justify;
+    }
+
+    .company-main1-small {
+        font-family: Kozuka Gothic Pr6N;
+        color: #FFFFFF;
+        font-weight: lighter;
+        font-size: 16.45px;
+        line-height: 28.2px;
+        letter-spacing: 3.54px;
+        margin-top: 41.3px;
+    }
+
+    .company-main2-small {
+        font-family: Kozuka Gothic Pr6N;
+        color: #FFFFFF;
+        font-weight: lighter;
+        font-size: 16.45px;
+        line-height: 28.2px;
+        letter-spacing: 3.54px;
+        margin-top: 41.3px;
+    }
+
+    .company-main3-small {
+        font-family: Kozuka Gothic Pr6N;
+        color: #FFFFFF;
+        font-weight: lighter;
+        font-size: 16.45px;
+        line-height: 28.2px;
+        letter-spacing: 3.54px;
+        margin-top: 41.3px;
+    }
+
+    .company-main4-small {
+        font-family: Kozuka Gothic Pr6N;
+        color: #FFFFFF;
+        font-weight: lighter;
+        font-size: 16.45px;
+        line-height: 28.2px;
+        letter-spacing: 3.54px;
+        margin-top: 41.3px;
+    }
+
+    .company-main5-small {
+        font-family: Kozuka Gothic Pr6N;
+        color: #FFFFFF;
+        font-weight: lighter;
+        font-size: 16.45px;
+        line-height: 28.2px;
+        letter-spacing: 3.54px;
+        margin-top: 41.3px;
+    }
+
+    .main5-small {
+        letter-spacing: 5.24px;
+    }
+
+    .main5-small2 {
+        letter-spacing: 2.24px;
+    }
+
+    /* --------------- Project small ------------------ */
+    .project-small-wrapper {
+        width: 298.53px;
+        margin-top: 226.92px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project-title-small-wrapper {
+        width: 51.8%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project-small-main-wrapper {
+        width: 100%;
+        margin-top: 76.25px;
+    }
+
+    .project-small-main-title-wrapper {
+        width: 100%;
+    }
+
+    .project-small-main-1 {
+        font-family : Kozuka Gothic Pr6N;
+        font-size: 16.45px;
+        line-height: 28.2px;
+        letter-spacing: 3.54px;
+        color : #FFFFFF;
+        font-weight: lighter;
+        margin-top: 35px;
+        text-align: justify;
+    }
+
+    .copy-small-1-wrapper {
+        width: 69.8%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 301.8px;
+    }
+
+    .copy-small-1 {
+        width: 100%;
+    }
+
+    .contact-small-2-wrapper {
+        width:27.9%;
+        margin-top: 33.21px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact-small-2 {
+        width: 100%;
+    }
+
+
 
 
 
