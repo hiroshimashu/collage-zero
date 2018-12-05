@@ -303,8 +303,41 @@
                     <img class="contact-small-2" src = 'image/contact_mod3@2x-8.png'>
                 </div>
             </a>
+            <div class="upper-arrow-small-wrapper">
+                <img class="upper-arrow-small" src = 'image/upperArrow.svg' onclick="goTop()">
+            </div>
         </div>
     </div>
 </div>
+<script>
+    var windowWidth;
+
+    function goTop() {
+        $("html,body").animate({scrollTop:0}, { duration: 1000 });
+    };
+
+    function getWindowWidth() {
+         return window.innerWidth;
+    }
+
+    window.onload = function() {
+        windowWidth = getWindowWidth();
+        window.addEventListener("resize", getWindowWidth);
+
+             // For small screen
+        if (windowWidth < 781) {
+
+        } else {
+            // For large screen
+
+            function scrolling(e) {
+                // For Large screen patterns
+            }
+
+
+        }
+    }
+
+</script>
 </body>
 </html>

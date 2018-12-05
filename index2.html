@@ -523,6 +523,16 @@
                 return ((top + height >= 0) && (height + window.innerHeight >= bottom));
             }
 
+            function isFullyVisible(el) {
+                var elementBoundary = el.getBoundingClientRect();
+                console.log(el);
+                console.log(el.height > 0)
+                var top = elementBoundary.top;
+                var bottom = elementBoundary.bottom;
+
+                return ((top >= 0) && (bottom <= window.innerHeight));
+            }
+
             document.addEventListener("DOMContentLoaded", scrolling, false);
             //For small screen
             var info_small = document.querySelector('#info-small');
@@ -697,16 +707,6 @@
                     project3_small10.classList.add('active');
                     project3_small11.classList.add('active');
                 }
-            }
-
-            function isFullyVisible(el) {
-                var elementBoundary = el.getBoundingClientRect();
-                console.log(el);
-                console.log(el.height > 0)
-                var top = elementBoundary.top;
-                var bottom = elementBoundary.bottom;
-
-                return ((top >= 0) && (bottom <= window.innerHeight));
             }
 
         //For Large screen
