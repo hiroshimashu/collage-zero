@@ -12,6 +12,17 @@ a {
     text-decoration: none;
 }
 
+.fadein {
+    opacity: 0.1;
+    transform: translate(0, 50px);
+    transition: all 0.5s ease-in-out;
+}
+
+.fadein.scrollin {
+    opacity:1;
+    transform: translate(0, 0);
+}
+
 .wf-loading .wrappper {
     visibility: hidden;
 }
@@ -25,7 +36,7 @@ a {
     display: block;
     background-color: black;
     overflow: hidden;
-    height: 3450px;
+    height: 3500px;
 }
 
 .wrapper-small {
@@ -207,7 +218,7 @@ a {
 .info-main {
     margin-top: -6px;
     margin-left: 29px;
-    font-family : Kozuka Gothic Pr6N;
+    font-family : kozuka-gothic-pr6n, sans-serif;
     font-size : 15px;
     font-weight: lighter;
     line-height : 36px;
@@ -235,7 +246,7 @@ a {
 .info-main-2 {
     margin-top: -6px;
     margin-left: 29px;
-    font-family : Kozuka Gothic Pr6N;
+    font-family : kozuka-gothic-pr6n, sans-serif;
     font-size : 15px;
     font-weight: lighter;
     line-height : 36px;
@@ -265,7 +276,7 @@ a {
 
 .company-main-wrapper {
     color: #FFFFFF;
-    font-family: "kozuka-gothic-pr6n";
+    font-family : kozuka-gothic-pr6n, sans-serif;
     font-weight: lighter;
     font-size : 15px;
     line-height : 36px;
@@ -343,7 +354,7 @@ a {
 
 
 .project-main-wrapper {
-    font-family : Kozuka Gothic Pr6N;
+    font-family : kozuka-gothic-pr6n, sans-serif;
     font-weight: lighter;
     font-size : 15px;
     line-height : 36px;
@@ -364,11 +375,16 @@ a {
     margin-left: auto;
     margin-right: auto;
     background-color: #FFFFFF;
+    border-radius: 15px;
 }
 
 .link-logo {
     position: absolute;
-    width: 100%;
+    width: 95%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 .link-logo-overlay {
@@ -393,6 +409,20 @@ a {
     transform: translate(-50%, -50%);
 }
 
+.copyright {
+    font-family : kozuka-gothic-pr6n, sans-serif;
+    font-weight: lighter;
+    font-size : 7.5px;
+    line-height : 9px;
+    letter-spacing : 2.4px;
+
+    margin-top: 40px;
+}
+
+
+#l2 {
+    letter-spacing: 2.2px;
+}
 
 
 
@@ -455,7 +485,7 @@ a {
         display: block;
         background-color: black;
         overflow: hidden;
-        height: 3400px;
+        height: 3480px;
     }
 
     .top-small {
@@ -474,6 +504,10 @@ a {
         height: auto;
         top: 0%;
         left: 0%;
+        animation-name: keyframes3;
+        animation-name: keyframes4;
+        animation-iteration-count: infinite;
+        animation-duration: 20s;
     }
 
     .logo-small-wrapper {
@@ -493,6 +527,59 @@ a {
         left: 50%;
         transform: translateX(-50%);
     }
+
+    @keyframes keyframes3 {
+        from {
+            transform: scale(1);
+        }
+        25% {
+            transform: scale(1.1);
+            animation-timing-function: ease-out;
+        }
+
+        50% {
+            transform: scale(1);
+            animation-timing-function: ease-out;
+        }
+
+        75% {
+            transform: scale(0.9);
+            animation-timing-function: ease-out;
+        }
+
+
+
+        to {
+            transform: scale(1);
+        }
+    }
+
+    @keyframes keyframes4 {
+        from {
+            transform: rotate(0deg);
+        }
+        25% {
+            transform: rotate(10deg);
+            animation-timing-function: ease-out;
+        }
+
+        50% {
+            transform: rotate(0deg);
+            animation-timing-function: ease-out;
+        }
+
+        75% {
+            transform: rotate(-10deg);
+            animation-timing-function: ease-out;
+        }
+
+
+        to {
+            transform: rotate(0deg);
+        }
+    }
+
+
 
     .contact-small-wrapper {
         position: absolute;
@@ -544,8 +631,9 @@ a {
     }
 
     .information-main1-small-content {
-        font-family: Kozuka Gothic Pr6N;
+        font-family: kozuka-gothic-pr6n, sans-serif;
         font-size: 16.45px;
+        font-weight: lighter;
         line-height: 28.2px;
         letter-spacing: 4.54px;
         color: #FFFFFF;
@@ -555,8 +643,9 @@ a {
     }
 
     .information-main1-small-content2 {
-        font-family: Kozuka Gothic Pr6N;
+        font-family: kozuka-gothic-pr6n, sans-serif;
         font-size: 16.45px;
+        font-weight: lighter;
         line-height: 28.2px;
         letter-spacing: 2.9px;
         color: #FFFFFF;
@@ -565,8 +654,9 @@ a {
     }
 
     .information-main1-small-content3 {
-        font-family: Kozuka Gothic Pr6N;
+        font-family: kozuka-gothic-pr6n, sans-serif;
         font-size: 16.45px;
+        font-weight: lighter;
         line-height: 28.2px;
         letter-spacing: 3.54px;
         color: #FFFFFF;
@@ -595,8 +685,9 @@ a {
     }
 
     .information-main2-small-content {
-        font-family: Kozuka Gothic Pr6N;
+        font-family: kozuka-gothic-pr6n, sans-serif;
         font-size: 16.45px;
+        font-weight: lighter;
         line-height: 28.2px;
         letter-spacing: 4.14px;
         color: #FFFFFF;
@@ -606,8 +697,9 @@ a {
     }
 
     .information-main2-small-content2 {
-        font-family: Kozuka Gothic Pr6N;
+        font-family: kozuka-gothic-pr6n, sans-serif;
         font-size: 16.45px;
+        font-weight: lighter;
         line-height: 28.2px;
         letter-spacing: 2.54px;
         color: #FFFFFF;
@@ -616,8 +708,9 @@ a {
     }
 
     .information-main2-small-content3 {
-        font-family: Kozuka Gothic Pr6N;
+        font-family: kozuka-gothic-pr6n, sans-serif;
         font-size: 16.45px;
+        font-weight: lighter;
         line-height: 28.2px;
         letter-spacing: 3.54px;
         color: #FFFFFF;
@@ -645,7 +738,7 @@ a {
     }
 
     .company-main1-small {
-        font-family: Kozuka Gothic Pr6N;
+        font-family: kozuka-gothic-pr6n, sans-serif;
         color: #FFFFFF;
         font-weight: lighter;
         font-size: 16.45px;
@@ -655,7 +748,7 @@ a {
     }
 
     .company-main2-small {
-        font-family: Kozuka Gothic Pr6N;
+        font-family: kozuka-gothic-pr6n, sans-serif;
         color: #FFFFFF;
         font-weight: lighter;
         font-size: 16.45px;
@@ -665,7 +758,7 @@ a {
     }
 
     .company-main3-small {
-        font-family: Kozuka Gothic Pr6N;
+        font-family: kozuka-gothic-pr6n, sans-serif;
         color: #FFFFFF;
         font-weight: lighter;
         font-size: 16.45px;
@@ -675,7 +768,7 @@ a {
     }
 
     .company-main4-small {
-        font-family: Kozuka Gothic Pr6N;
+        font-family: kozuka-gothic-pr6n, sans-serif;
         color: #FFFFFF;
         font-weight: lighter;
         font-size: 16.45px;
@@ -685,7 +778,7 @@ a {
     }
 
     .company-main5-small {
-        font-family: Kozuka Gothic Pr6N;
+        font-family:kozuka-gothic-pr6n, sans-serif;
         color: #FFFFFF;
         font-weight: lighter;
         font-size: 16.45px;
@@ -726,7 +819,7 @@ a {
     }
 
     .project-small-main-1 {
-        font-family : Kozuka Gothic Pr6N;
+        font-family : kozuka-gothic-pr6n, sans-serif;
         font-size: 16.45px;
         line-height: 28.2px;
         letter-spacing: 3.54px;
@@ -743,13 +836,26 @@ a {
         margin-top: 58.9px;
         margin-left: auto;
         margin-right: auto;
+        border-radius: 15px;
         background-color: #FFFFFF;
     }
 
     .link-logo-small {
         position: absolute;
-        width: 100%;
+        width: 95%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
 
+    .copyright-small {
+        margin-top: 30.25px;
+        font-family : kozuka-gothic-pr6n, sans-serif;
+        font-size: 8.2px;
+        line-height: 14px;
+        letter-spacing: 1.7px;
+        color : #FFFFFF;
+        font-weight: lighter;
     }
 
 
